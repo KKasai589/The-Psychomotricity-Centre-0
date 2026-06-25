@@ -28,10 +28,10 @@
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; }
-body { font-family:'DM Sans', sans-serif; background:var(--navy); color:var(--white); overflow-x:hidden; }
+body { font-family:'DM Sans', sans-serif; background:var(--y); color:var(--white); overflow-x:hidden; }
 
-/* NAV */
-nav {
+/*  */
+ {
   position:fixed; top:0; left:0; right:0; z-index:100;
   display:flex; align-items:center; justify-content:space-between;
   padding:16px 48px;
@@ -39,13 +39,13 @@ nav {
   backdrop-filter:blur(12px);
   border-bottom:1px solid rgba(135,206,235,0.15);
 }
-.nav-logo { display:flex; align-items:center; gap:14px; text-decoration:none; }
-.nav-logo img { width:44px; height:44px; object-fit:contain; border-radius:8px; }
-.nav-logo span { font-family:'Cormorant Garamond', serif; font-size:15px; font-weight:400; letter-spacing:0.08em; color:var(--white); line-height:1.3; max-width:160px; }
-.nav-links { display:flex; align-items:center; gap:32px; }
-.nav-links a { text-decoration:none; color:rgba(255,255,255,0.7); font-size:13px; letter-spacing:0.06em; font-weight:500; transition:color 0.3s; text-transform:uppercase; }
-.nav-links a:hover { color:var(--sky); }
-.nav-cta { background:var(--cyan); color:var(--navy); padding:10px 24px; border-radius:40px; font-size:13px; font-weight:600; text-decoration:none; letter-spacing:0.04em; transition:all 0.3s; }
+.-logo { display:flex; align-items:center; gap:14px; text-decoration:none; }
+.-logo img { width:44px; height:44px; object-fit:contain; border-radius:8px; }
+.-logo span { font-family:'Cormorant Garamond', serif; font-size:15px; font-weight:400; letter-spacing:0.08em; color:var(--white); line-height:1.3; max-width:160px; }
+.-links { display:flex; align-items:center; gap:32px; }
+.-links a { text-decoration:none; color:rgba(255,255,255,0.7); font-size:13px; letter-spacing:0.06em; font-weight:500; transition:color 0.3s; text-transform:uppercase; }
+.-links a:hover { color:var(--sky); }
+.-cta { background:var(--cyan); color:var(--navy); padding:10px 24px; border-radius:40px; font-size:13px; font-weight:600; text-decoration:none; letter-spacing:0.04em; transition:all 0.3s; }
 .nav-cta:hover { background:var(--white); transform:translateY(-1px); }
 
 /* HERO */
@@ -458,6 +458,7 @@ footer {
     <a href="#conditions">Conditions</a>
     <a href="#therapies">Therapies</a>
     <a href="#locations">Clinics</a>
+    <a href="payment.html">Pay Online</a>
     <a href="#pricing">Plans</a>
     <a href="#training">Training</a><a href="#podcast">Podcast</a><a href="#booking">Book</a>
     <a class="nav-cta" href="#booking">Book a Consultation</a>
